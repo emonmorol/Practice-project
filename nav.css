@@ -59,3 +59,17 @@ body {
   height: 39px;
   margin-top: 4px;
 }
+@media screen and (max-width: 767px) {
+  .navigations {
+    width: 100%;
+  }
+  .navigate-right {
+    position: relative;
+    right: 456px;
+  }
+
+  .navigate-left {
+    position: relative;
+    left: 7px;
+  }
+}

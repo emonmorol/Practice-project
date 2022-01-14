@@ -191,3 +191,45 @@ footer h3 {
   margin-left: 7px;
   font-weight: 400;
 }
+
+/* For Mobile Phone */
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
+  .top-players {
+    margin-left: 41px;
+  }
+  .top-player {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* .player {
+    transform: scale(0.6);
+    margin: 0px;
+  } */
+  .top-blog {
+    grid-template-columns: repeat(1, 1fr);
+    transform: scale(0.85);
+    position: relative;
+    left: -40px;
+    top: -54px;
+    margin-bottom: -103px;
+  }
+  .latest-courses {
+    margin-bottom: 230px;
+  }
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+    transform: scale(1.28);
+    position: relative;
+    top: 114px;
+    left: 45px;
+  }
+  .course {
+    margin-bottom: 17px;
+  }
+  hr {
+    display: none;
+  }
+}
