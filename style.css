@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(198, 239, 255);
+  background-color: #e2efff;
 }
 hr {
   border: 1px solid #d1d1d1;
@@ -24,6 +24,8 @@ hr {
 }
 
 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #2827cc;
   font-size: 24px;
   font-weight: 600;
@@ -195,11 +197,19 @@ footer h3 {
 /* For Mobile Phone */
 
 @media screen and (max-width: 767px) {
+  body {
+    margin: 0px;
+    width: 100%;
+  }
   .container {
     width: 95%;
+    margin-top: 72px;
+  }
+  .course-container {
+    margin-top: 14px;
   }
   .top-players {
-    margin-left: 41px;
+    margin-left: 55px;
   }
   .top-player {
     grid-template-columns: repeat(1, 1fr);
@@ -208,12 +218,15 @@ footer h3 {
     transform: scale(0.6);
     margin: 0px;
   } */
+  .top-blogs {
+    width: 348px;
+  }
   .top-blog {
     grid-template-columns: repeat(1, 1fr);
-    transform: scale(0.85);
+    transform: scale(0.83);
     position: relative;
-    left: -40px;
-    top: -54px;
+    left: -36px;
+    top: -52px;
     margin-bottom: -103px;
   }
   .latest-courses {
@@ -224,12 +237,10 @@ footer h3 {
     transform: scale(1.28);
     position: relative;
     top: 114px;
-    left: 45px;
+    left: 32px;
+    width: 266px;
   }
   .course {
     margin-bottom: 17px;
-  }
-  hr {
-    display: none;
   }
 }
